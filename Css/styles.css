@@ -1,0 +1,54 @@
+body {
+  background: white;
+}
+
+form {
+  max-width: 50%;
+  background: #1abc9c;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Nunito';
+}
+
+input {
+  display: block;
+  margin: 5px auto;
+  width: 200px;
+  height: 4%;
+}
+
+label {
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.3rem;
+  font-family: 'Nunito';
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.success {
+  color: green;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
